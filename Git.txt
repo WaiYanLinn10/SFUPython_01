@@ -1,0 +1,48 @@
+username-linchanglong.wyl1110@gmail.com
+username-WaiYanLinn10
+password-wyl&LCL@11
+
+
+Step 1 : Git Download
+Step 2 : Git Installation
+Step 3 : Github Account Creation
+Step 4 : Git Repository
+Step 5 : A File to upload on github
+Step 6 : Git Command Line
+
+cd Path- Go to Directory
+
+First Time ( New Respositoty)
+			git init
+			git add .
+			git config global user.email "usermail"
+			git config global user.name "username"
+			
+			git commit -m "first commit"
+			git remore add origin https://github.com/WaiYanLinn10/sample.git
+			git push -u orign master
+
+(New Respository For New Project)
+			git init
+			git and .
+			git config global user.email "usermail"
+			git config global user.name "username"
+
+			git commit -m "first commit"
+			git remote add origin https://github.com/WaiYanLinn10/Sample.git
+			git push -u orign master
+
+(Old Repository for Existing Project)
+			
+			git add .
+			git commit -m "second commit"
+			git push
+
+(Exostomg Project to Other Laptop)
+		
+			git pull
+
+(Other Person Project To Own Laptop)
+
+			git clone https://github.com/WaiYanLinn10/Sample.git
+
