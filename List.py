@@ -99,11 +99,69 @@ del cube1[:]
 
 programA = ['A','B','C','D','E']
 programB = ['a','b','c','d','e']
-ProgramC = programA + programB
-ProgramC
+programC = programA + programB
+programC
 ['A', 'B', 'C', 'D', 'E', 'a', 'b', 'c' , 'd', 'e']
-ProgramD = [1, 2, 3, 4, 5]
-ProgramC = ProgramC + ProgramD
-ProgramC[9:] = []
-ProgramC[5:9] = ProgramD
-ProgramC
+programD = [1, 2, 3, 4, 5]
+programC = programC + programD
+programC[9:] = []
+programC[5:9] = programD
+programC
+
+len(ProgramC)
+
+a = [10, 20, 30, 40, 50]
+b = [60, 70, 80, 90, 100]
+c = [110, 120, 130, 140, 150]
+x = [a, b, c]
+x
+
+>>> x[0]
+[10, 20, 30, 40, 50]
+
+x[0][]
+>>> x[0][]
+  File "<stdin>", line 1
+    x[0][]
+         ^
+SyntaxError: invalid syntax
+
+x[][3]
+>>> x[][3]
+  File "<stdin>", line 1
+    x[][3]
+      ^
+SyntaxError: invalid syntax
+
+x[1][2]
+>>> x[1][2]
+80
+
+x[1:2][1:2]
+>>> x[1:2][1:2]
+[]
+
+x[][]
+>>> x[][]
+  File "<stdin>", line 1
+    x[][]
+      ^
+SyntaxError: invalid syntax
+
+x[0][0]
+>>> x[0][0]
+10
+
+x[0][1:2]
+>>> x[0][1:2]
+[20]
+
+
+>>> x[0:2][0]
+[10, 20, 30, 40, 50]
+>>> x[0:2][1]
+[60, 70, 80, 90, 100]
+>>> x[0:2][0][1]
+20
+>>> x[1:2][0][2]
+80
