@@ -19,7 +19,7 @@ First Time ( New Respositoty)
 			git config --global user.name "username"
 			
 			git commit -m "first commit"
-			git remore add origin https://github.com/WaiYanLinn10/sample.git
+			git remote add origin https://github.com/WaiYanLinn10/sample.git
 			git push -u orign master
 
 (New Respository For New Project)
@@ -38,7 +38,7 @@ First Time ( New Respositoty)
 			git commit -m "second commit"		( second commit = name )
 			git push
 
-(Exostomg Project to Other Laptop)
+(Existing Project to Other Laptop)
 		
 			git pull
 
